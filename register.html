@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisaconsult</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://kit.fontawesome.com/446b893d88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <img src="../images/lisaconsult-logo.png" class="logo" alt="The logo of Lisaconsult">
+            
+            <a href=""><img src="../images/lisaconsult-logo.png" class="logo"> </a>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="about.html">About Us</a> </li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="#">Register</a></li>
+                
+            </ul>
+        </nav>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <form action="action_page.php">
+
+            <fieldset>
+                <legend> Your Details: </legend>
+
+
+                <label for="fn">First Name:</label>
+                <input type="text" id="fn" name="firstname">
+
+                <label for="ln">Last Name:</label>
+                <input type="text" id="ln" name="lastname"><br>
+
+                <label for="bd">Birth Date:</label>
+                <input type="date" id="bd" name="birthdate"><br>
+
+                <Label>Gender:</Label>
+                <select name="gender" id="gender">
+                    <option value="mal"></option>
+                    <option value="mal">Male</option>
+                    <option value="fel">Female</option>
+                    <option value="div">Diverse</option>
+                  </select><br>
+
+                <label for="nl">Nationality:</label>
+                <input type="text" name="nationality" id="nl">
+
+                <label for="rc">Residence Country:</label>
+                <input type="text" name="residencecountry" id="rc">
+
+                <label for="lg">Language:</label>
+                <input type="text" name="language" id="lg"><br>
+
+                <label for="tel">Telephone:</label>
+                <input type="number" id="tel" name="telephone">
+
+                <label for="fax">Fax:</label>
+                <input type="number" id="fax" name="fax"><br>
+
+                <label>Security Choices:</label><br>
+                <input type="checkbox"id="CODs"name="security" value="CODs">
+                <label for="cd">CODs</label><br>
+                <input type="checkbox"id="bn"name="security" value="Bonds">
+                <label for="bn">Bonds</label><br>
+                <input type="checkbox"id="st"name="security" value="stocks">
+                <label for="st">Stocks</label><br>
+                <input type="checkbox"id="re"name="security" value="real estate">
+                <label for="re">Real Estate</label><br>
+                <input type="checkbox"id="fx"name="security" value="FOREX">
+                <label for="fx">FOREX</label><br>
+                <input type="checkbox"id="ct"name="security" value="crypto">
+                <label for="ct">Crypto</label><br>
+
+                <label for="ta">Motivation Letter:</label>
+                <textarea name="textarea" id="ta" cols="60" rows="10"></textarea><br>
+
+                <label for="em">Email:</label>
+                <input type="text" id="em" name="email">
+
+                <label for="pw">Password:</label>
+                <input type="password" id="pw" name="password"> <br>
+
+                <input type="reset" value="Reset"><br>
+
+                <input type="checkbox"name="agree">
+                <label for="agree" class="confirm">I agree to all the conditions.</label> <br>
+
+                <input type="submit">
+
+            </fieldset>
+                            
+
+            </form>
+                     
+    </main>
+    <hr>
+    <footer>
+        <section class="icons">
+            <a href="https://youtube.com" target="_blank">
+                <i class="fab fa-youtube fa-3x isp"></i></a>
+
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook fa-3x isp"></i></a>
+
+            <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter-square fa-3x isp"></i></a>
+
+            <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram-square fa-3x isp"></i></a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin-in fa-3x isp"></i></a>
+
+            <a href="https://fa-tiktok.com" target="_blank">
+                <i class="fab fa-tiktok fa-3x isp"></i></a>
+
+        </section>
+
+        <p class="fp">&copy;Copyright is reserved!</p>
+
+    </footer>
+</body>
+</html>

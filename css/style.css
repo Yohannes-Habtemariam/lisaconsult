@@ -1,0 +1,234 @@
+body {
+  background-image: url(../images/background/background-image.jpg);
+
+  background-repeat: no-repeat;
+  color: rgba(8, 8, 131, 0.925);
+  font-size: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.6em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  width: 70px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+}
+nav {
+  background-image: url(../images/background/background.jpg);
+  font-size: 1.2em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+h1 {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 7%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 16px;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-size: 2em;
+}
+
+.investor {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.leader {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.money {
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 120px;
+  width: 40%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.nelson {
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 1%;
+  border-radius: 5%;
+  width: 40%;
+  height: 42%;
+}
+.strategic-intent {
+  width: 75%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.values {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.image{
+    width: 40%;
+    float: right;
+}
+
+figure {
+  width: 50%;
+  float: right;
+}
+.obama {
+  width: 80%;
+  border-radius: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+.icons {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+i {
+  color: blue;
+}
+
+.isp {
+  padding-right: 1.3em;
+}
+
+.isp:hover {
+  color: blueviolet;
+}
+
+.fp {
+  margin-left: 10%;
+}
+
+.blocks{
+  display: inline-flex;
+  margin-left: 2em;
+  border: solid blue;
+  background-color: cornsilk;
+  padding-right: 3%;
+  width: 90%;
+}
+
+  .hl{
+      margin-right: 0.5em;
+      margin-left: 0.5em;
+  }
+
+.customer{
+  width: auto;
+  margin: 5%;
+  margin-left: 10%;
+}
+
+.book {
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 1%;
+  border-radius: 5%;
+  width: 40%;
+  height: 8%;
+}
+
+/* Registration Form */
+
+form{
+  background-color: #c1cacc;
+  width: 40%;
+  margin: auto;
+  margin-left: 27%;
+  border-radius: 5%;
+  
+}
+
+fieldset{
+  background-color: rgb(190, 199, 199);
+  padding: 20px;
+  border-radius: 5%;
+}
+
+label{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=number],
+input[type=option]{
+  padding: 4px 4px;
+    width: 50%;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 4px;
+  }
+
+
+
+input[type=checkbox]{
+  margin-left: 36px;
+}
+
+ .confirm{
+   width: 400px;
+ }
+
+button {
+  width: 85%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  color: #efefef;
+  background-color: rgba(75, 111, 218, 0.719);
+  margin: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(38, 63, 136);
+  font-weight: bolder;
+  font-size: larger;
+  font-style: oblique;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
